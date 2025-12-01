@@ -1,8 +1,8 @@
 # SICK Training kit: Artificial intelligence
 
-Welcome to the GitHub for the SICK's Training kit: Artificial intelligence!
+Welcome to the GitHub for the SICK's Educational Set: Artificial intelligence!
 
-If you purchased the Training kit: Artificial intelligence from SICK, you are right here.
+If you purchased a training kit SICK, this is the page to get started. Here you can find training material, exercises, sample solutions, an e-learning course and much more!
 
 <style>
   .slideshow-container {

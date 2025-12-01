@@ -7,7 +7,12 @@ nav:
     - Foreword: overview/foreword.md
     - What's in the box: overview/box.md
     - Accounts: overview/accounts.md
-  - Exercises: 
+    - Customization: overview/customization.md
+  - Resources: resources.md
+  - Web based training:
+    - Overview: webbasedtraining/wbt_overview.md
+    - Start web based training: webbasedtraining/wbt/story.html
+  - Exercises:
     - Exercise 1: exercises/exercise1.md
     - Exercise 2: exercises/exercise2.md
     - Exercise 3: exercises/exercise3.md
