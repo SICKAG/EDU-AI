@@ -11,7 +11,7 @@ nav:
   - Resources: resources.md
   - Web based training:
     - Overview: webbasedtraining/wbt_overview.md
-    - Start web based training: webbasedtraining/wbt/story.html
+    - Start web based training: webbasedtraining/wbt_start.md
   - Exercises:
     - Exercise 1: exercises/exercise1.md
     - Exercise 2: exercises/exercise2.md
