@@ -1,32 +1,17 @@
-site_name: SICK Sensor Starter Kits
-site_url: https://sickag.github.io/SICK-Sensor-Kits
+site_name: Educational Set AI
+site_url: https://sickag.github.io/Edu-AI
 use_directory_urls: false
 nav:
   - Home: index.md
-  - Vision Sensor Kit: 
-    - Overview: vision/vision_overview.md
-    - Getting Started: vision/vision_getting_started.md
-    - Code Snippets: vision/vision_code_snippets.md
-    - Advanced: vision/vision_advanced.md
-    - Example Projects: 
-      - Overview: vision/vision_example_projects.md
-      - Classify Hex Nuts/Screws: vision/classify_hex_nuts_screws.md
-      - Sketch Demonstrator: vision/sketch_demonstrator.md
-      - Chocolate Inspection: vision/chocolate_inspection.md
-      - Rock, Paper, Scissors: vision/rock_paper_scissors.md
-    - Training Material: vision/vision_training_material.md
-    - FAQ: vision/vision_faq.md
-  - LiDAR Sensor Kit: 
-    - Overview: lidar/lidar_overview.md
-    - Getting Started: lidar/lidar_getting_started.md
-    - Code Snippets: lidar/lidar_code_snippets.md
-    - Advanced: lidar/lidar_advanced.md
-  - IO-Link Starter Kit: 
-    - Overview: iolink/iolink_overview.md
-    - Getting Started: iolink/iolink_getting_started.md
-    - Code Snippets: iolink/iolink_code_snippets.md
-    - Advanced: iolink/iolink_advanced.md
-    - Training Material: iolink/iolink_training_material.md
+  - Overview: 
+    - Foreword: overview/foreword.md
+    - What's in the box: overview/box.md
+    - Accounts: overview/accounts.md
+  - Exercises: 
+    - Exercise 1: exercises/exercise1.md
+    - Exercise 2: exercises/exercise2.md
+    - Exercise 3: exercises/exercise3.md
+  - Troubleshoot: troubleshoot.md
   - FAQ: faq.md
   - Imprint: https://www.sick.com/de/de/s/imprint
 
