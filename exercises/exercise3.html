@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#advanced" class="md-skip">
+        <a href="#exercises" class="md-skip">
           Skip to content
         </a>
       
@@ -247,12 +247,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../overview/box.html" class="md-nav__link">
+      <a href="../overview/sensor.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    What's in the box
+    Sensor
     
   </span>
   
@@ -270,12 +270,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../overview/applications.html" class="md-nav__link">
+      <a href="../overview/box.html" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    Applications
+    What's in the box
     
   </span>
   
@@ -551,6 +551,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -583,6 +585,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -591,11 +595,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#advanced" class="md-nav__link">
+  <a href="#exercise-3-anomaly-detection" class="md-nav__link">
     <span class="md-ellipsis">
-      Advanced
+      Exercise 3 - Anomaly Detection
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Exercise 3 - Anomaly Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-31-crackers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 3.1 - Crackers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-32-yogurt-cups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 3.2 - Yogurt Cups
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -666,6 +694,29 @@
   
   <span class="md-ellipsis">
     Before the training
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../trainer/ip_setup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    IP setup
     
   </span>
   
@@ -767,6 +818,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshoot/nodownload.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Image downloads blocked
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -857,6 +931,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -865,11 +941,35 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#advanced" class="md-nav__link">
+  <a href="#exercise-3-anomaly-detection" class="md-nav__link">
     <span class="md-ellipsis">
-      Advanced
+      Exercise 3 - Anomaly Detection
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Exercise 3 - Anomaly Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-31-crackers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 3.1 - Crackers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-32-yogurt-cups" class="md-nav__link">
+    <span class="md-ellipsis">
+      Exercise 3.2 - Yogurt Cups
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -889,9 +989,86 @@
 
 
 
-  <h1>Exercise 3</h1>
-
-<h2 id="advanced">Advanced</h2>
+<div><h1 id="exercises">Exercises</h1>
+<h2 id="exercise-3-anomaly-detection">Exercise 3 - Anomaly Detection</h2>
+<h3 id="exercise-31-crackers">Exercise 3.1 - Crackers</h3>
+<div class="admonition info">
+<p>Unlike classification, this exercise focuses on detecting anomalies rather than differentiating between predefined object types. The AI Anomaly Detection tool identifies irregularities and allows you to set a threshold that determines when an object is considered broken or not OK.
+<em>Example Scenario</em>: Test crackers to see if they are intact or broken.
+<strong>Goal</strong>: Test crackers to see if they are intact or broken.</p>
+</div>
+<details class="sickinfo">
+<summary>Recommended objects</summary>
+<table>
+<thead>
+<tr>
+<th>info</th>
+<th>image</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>For this exercise, we recommend using dry cookies or crackers. You can substitute these with similar objects that can easily be broken into large or small pieces, or manipulated in comparable ways.</td>
+<td><img alt="Cracker" src="../images/cracker.png"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><strong>Acquisition</strong>: Place the object under the sensor. Align the object at the edge of the tray so its position varies only slightly between captures. Set the acquisition parameters. Use the FOV sliders to crop in on the object if needed for better focus and framing.  </p>
+<p><img alt="Crackernova" src="../images/crackernova.png">  </p>
+<p><strong>Tool</strong>: In the left panel, navigate to <em>Analysis</em> → <em>Add Tool</em> → <em>Verify</em> → <em>AI Anomaly Detection</em>.<br>
+Stop the image acquisition to set the boundaries and make sure it roughly tracks the object’s borders. </p>
+<p><strong>AI Anomaly Detection Settings</strong>: You can adjust the region shape for this if necessary. The AI Anomaly Detection tool identifies irregularities in objects by comparing them to a set of “good” reference images. To train the model effectively, you need images of objects in their correct state. You can collect them just like you did in the previous exercise.  </p>
+<ol>
+<li>
+<p>Add at least 10 images of different crackers in the same position.<br>
+Minor variations (slight wiggle) are acceptable, but all objects must stay within the defined region.<br>
+Click <img alt="train" src="../images/train.png"> to open the training settings.<br>
+Uncheck “strict matching” and train the network with suggested parameters.</p>
+</li>
+<li>
+<p>Check your results. Manipulate some objects by breaking off pieces or making similar changes. Observe the Anomaly Score for each object. Use the threshold slider to define when an object is considered “bad.” </p>
+<ul>
+<li>Green border = OK</li>
+<li>Red border = Not OK</li>
+</ul>
+</li>
+<li>
+<p>Adjust the threshold so that good objects show a green border and broken ones show red. If necessary, add more sample images, including bad examples, and retrain. 
+By clicking "?" in the training window, you can find out more about what the sliders and checkmarks do to improve your training. 
+Experiment: What is the smallest variation you can detect without triggering a false “bad” result?</p>
+</li>
+<li>Play with the Visualization Range slider. What does it do and how does it help you visualize object defects? How would you set it?</li>
+</ol>
+<hr>
+<h3 id="exercise-32-yogurt-cups">Exercise 3.2 - Yogurt Cups</h3>
+<div class="admonition info">
+<p>Imagine you are a yogurt producer.
+<strong>Goal</strong>: Perform a visual inspection of empty yogurt cups (or similar objects) to ensure they meet quality standards before filling.</p>
+</div>
+<details class="sickinfo">
+<summary>Recommended objects</summary>
+<table>
+<thead>
+<tr>
+<th>info</th>
+<th>image</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>For this exercise, we recommend using dry cookies or crackers. You can substitute these with similar objects that can easily be broken into large or small pieces, or manipulated in comparable ways.</td>
+<td><img alt="yogurt1" src="../images/cup1.png"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p><img alt="yogurt2" src="../images/cup2.png"></p>
+<ol>
+<li>Put an empty yogurt cup in the tray. Set up Image Acquisition and set AI Anomaly detection to detect if there are foreign objects in the cup.</li>
+<li>How well can you finetune the settings, what’s the smallest/thinnest object you can detect, while the empty cup still passes? Compare with other groups. </li>
+<li>Save and create a new Job to move on with the next exercise.</li>
+</ol></div>
 
 
 
