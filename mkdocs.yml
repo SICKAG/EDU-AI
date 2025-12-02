@@ -6,6 +6,7 @@ nav:
   - Overview: 
     - Foreword: overview/foreword.md
     - What's in the box: overview/box.md
+    - Applications: overview/applications.md
     - Accounts: overview/accounts.md
     - Customization: overview/customization.md
   - Resources: resources.md
@@ -16,7 +17,12 @@ nav:
     - Exercise 1: exercises/exercise1.md
     - Exercise 2: exercises/exercise2.md
     - Exercise 3: exercises/exercise3.md
-  - Troubleshoot: troubleshoot.md
+  - Trainer:
+    - Before the training: trainer/beforethetraining.md
+  - Troubleshoot: 
+    - Resetting the sensor: troubleshoot/reset.md
+    - Firmware upgrade: troubleshoot/upgradefw.md
+  - Limited use: limiteduse.md 
   - FAQ: faq.md
   - Imprint: https://www.sick.com/de/de/s/imprint
 

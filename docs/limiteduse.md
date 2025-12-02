@@ -1,0 +1,2 @@
+# Limited Use
+This set is intended solely for educational purposes and includes a software limitation: neural networks created with SICK dStudio can only be used for a maximum of two hours at a time. Rebooting the sensor resets this usage window.
