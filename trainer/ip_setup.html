@@ -951,27 +951,30 @@
 <p>Verify the sensor connection by entering the default IP address (<strong>192.168.0.1</strong>) in the browser’s URL field (or the reconfigured IP address if changed in AppManager). 
 If the sensor’s user interface appears, <strong>the connection is successful; skip the following steps</strong>.</p>
 </li>
-<li>
-<p>If you cannot connect to the sensor, either</p>
+</ol>
+<details class="sickinfo">
+<summary>In case the connection is not successful</summary>
+<p>If you cannot connect to the sensor choose one of the two options to continue   </p>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked id="option-1" name="__tabbed_1" type="radio"><input id="or-alternatively" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="option-1">Option 1</label><label for="or-alternatively">or alternatively</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <ul>
-<li>press “<strong>Windows key”+R</strong> and enter the command <strong>ncpa.cpl</strong>, or</li>
-<li>right-click the internet icon in the task bar and select <strong>Network and Internet settings</strong>, then click <strong>Advanced network settings</strong>.  </li>
-</ul>
-<p><img alt="NetworkSettings1" src="../images/networksettings1.png"> <img alt="Networksettings2" src="../images/networksettings2.png"></p>
-</li>
-<li>
-<p>This will take you to the adapter overview on your Windows PC. If the sensor is connected, there should be a network adapter named <strong>Realtek USB GbE Family Controller</strong>. If it does not appear, unplug the adapter and reconnect it. </p>
-</li>
-<li>
-<p>The adapter that appeared is the correct one. Apply whichever you see fit:</p>
-<ul>
+<li>press “<strong>Windows key”+R</strong> and enter the command <strong>ncpa.cpl</strong></li>
+<li>This will take you to the adapter overview on your Windows PC. If the sensor is connected, there should be a network adapter named <strong>Realtek USB GbE Family Controller</strong>. If it does not appear, unplug the adapter and reconnect it. The adapter that appeared is the correct one.</li>
 <li>Right-click on the adapter and select <strong>Properties</strong> </li>
-<li>or expand it and click the More <strong>adapter options</strong>’ <strong>edit</strong> button.</li>
 </ul>
-</li>
-<li>
-<p>You might be prompted to type in the <strong>admin password</strong> to get access.</p>
-</li>
+</div>
+<div class="tabbed-block">
+<p>right-click the internet icon in the task bar and select <strong>Network and Internet settings</strong>, then click <strong>Advanced network settings</strong>.<br>
+<img alt="NetworkSettings1" src="../images/networksettings1.png"> <img alt="Networksettings2" src="../images/networksettings2.png"><br>
+- This will take you to the adapter overview on your Windows PC. If the sensor is connected, there should be a network adapter named <strong>Realtek USB GbE Family Controller</strong>. If it does not appear, unplug the adapter and reconnect it. The adapter that appeared is the correct one.<br>
+- expand it and click the More <strong>adapter options</strong>’ <strong>edit</strong> button.</p>
+</div>
+</div>
+</div>
+<hr>
+<ul>
+<li>You might be prompted to type in the <strong>admin password</strong> to get access.</li>
 <li>Double-click <strong>Internet Protocol Version 4</strong>, select Use the following IP address and enter <ul>
 <li>192.168.0.X (where X is any value between 1 and 255 that differs from the sensor’s IP address). <strong>Remember: This is the adapter’s IP address</strong>. The adapter’s IP address must be different from the sensor’s IP address.</li>
 <li>set 255.255.255.0 as the subnet mask. </li>
@@ -979,7 +982,8 @@ If the sensor’s user interface appears, <strong>the connection is successful; 
 </ul>
 </li>
 <li>Then try to reconnect to the sensor by typing its default IP address 192.168.0.1 (or different if changed in AppManager) in the URL bar of your browser.</li>
-</ol></div>
+</ul>
+</details></div>
 
 
 
