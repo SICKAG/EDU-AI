@@ -795,29 +795,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../trainer/samplesolutions.html" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Sample solutions
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -1113,54 +1090,18 @@ Be sure to also explore the first two Integrated Lighting options!</p>
 <ol>
 <li>
 <p>Showcase some results in a plenary session. Discuss what the settings are and what they do.  </p>
-<details class="success">
-<summary>Sample Solution</summary>
-<ul>
-<li><strong>Exposure time</strong>: The exposure time of the sensor. Increase the exposure time to get a brighter image. </li>
-<li><strong>Focus</strong>: The focus distance (in mm). The lower and upper limits are set based on the possible focus distances for the device.</li>
-<li><strong>Contrast</strong>: The contrast level for image acquisition. Increase the contrast to make objects in the image more distinguishable.   </li>
-<li><strong>Brightness</strong>: The brightness (gain factor) for image acquisition. Keep the brightness low to reduce the level of noise. If a brighter image is required, it is recommended to increase the exposure time before increasing the brightness.</li>
-<li><strong>Downsample</strong>: The downsample factor for the acquired images. The downsample factor is applied both vertically and horizontally. For example, a downsample factor of 2 will resize a 1000 x 1000 px image into a 500 x 500 px image. Downsampling is recommended to save disk space and to decrease the processing time for images with high resolution.</li>
-<li><strong>FOV</strong>: Limit the camera's field of view width (X/Y direction). At least 20% of the total width must be used.</li>
-<li><strong>Transformation</strong>: Use this setting to mirror or rotate the image</li>
-</ul>
-</details>
 </li>
 <li>
 <p>Some settings have trade-offs. What are they?  </p>
-<details class="success">
-<summary>Sample Solution</summary>
-<ul>
-<li><strong>Exposure time</strong>: As a downside to having a brighter image, the image will take longer to take, this can cause blurry images if the object is moving.</li>
-<li><strong>Brightness</strong>: As the image gets brighter, more noise is introduced into the image, causing it to lose quality and definition, especially in details.</li>
-<li><strong>Downsample</strong>: Downsampling decreases the resolution and therefore small details get lost. </li>
-</ul>
-</details>
 </li>
 <li>
 <p>What’s the difference between Exposure time and Brightness?  </p>
-<details class="success">
-<summary>Sample Solution</summary>
-<ul>
-<li>A higher <strong>Exposure time</strong> increases the image brightness, but introduces motion blur (if the object or the camera is moving). This happens as the sensor is given more time to gather light (resulting in a brighter image). But since every movement happening while gathering light (e.g. taking the image) causes blurriness, a longer exposure time increases the chance of a blurry image. A static object and camera cause no issues. </li>
-<li>A higher <strong>Brightness</strong> value does not increase the time it takes to capture the image. The higher image brightness is achieved by increasing the sensors sensitivity, meaning that less light suffices for a brighter image. Since the sensor is set much more sensitive however, small brightness errors are amplified and therefore result in a <em>noisier</em>, more grainy image of a lower quality, where small details might get lost. </li>
-<li>It is recommended to first make the object brighter by external means, like a photo flash or more lights in the environment as there are no blur-side-effects associated with this measure. Then Exposure time should be prioritized if the movement speed allows it. Only then if the previous measures are exhausted it is recommended to increase the brightness value. </li>
-</ul>
-</details>
 </li>
 <li>
 <p>What is Downsampling good for? Set it to a value of 3 or 4 if possible, to ensure a smooth user experience.  </p>
-<details class="success">
-<summary>Sample Solution</summary>
-<p>Downsampling decreases the image resolution which in turn decreases processing time as there are less pixels to analyze. This speeds up the processing time. A faster processing time leads to a higher frame rate, increased response times and a smoother user experience. If downsampling is set too high, important features that you want to recognize in an object might get lost, so the right setting depends on the chosen object and feature.   </p>
-</details>
 </li>
 <li>
 <p>What settings would you use for your object? What should be clearly visible?  </p>
-<details class="success">
-<summary>Sample Solution</summary>
-<p>The feature that is important for the image analysis must be clearly visible/distinguishable. This varies per object. For example: You want to classify coins (1 Euro/2 Euro coins). The Number or "image" on the coin determines the value and therefore the class. Since you want to make that visible, maybe a light from the side might help elevating the contrast between higher and lower object features in the object.  A higher contrast might help increasing the feature visibility more. Set the focus to the right distance between camera and object and the exposure so that the features are visible (not all white, not all black).   </p>
-</details>
 </li>
 <li>
 <p>Compare that to the auto setup. Which one do you think is better for the given object, your settings or the auto settings? Justify your answer.  </p>

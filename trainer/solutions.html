@@ -8,13 +8,9 @@
       
       
       
-        <link rel="canonical" href="https://sickag.github.io/Edu-AI/trainer/samplesolutions.html">
+        <link rel="canonical" href="https://sickag.github.io/Edu-AI/trainer/solutions.html">
       
       
-        <link rel="prev" href="ip_setup.html">
-      
-      
-        <link rel="next" href="../troubleshoot/reset.html">
       
       
       <link rel="icon" href="../images/favicon.ico">
@@ -22,7 +18,7 @@
     
     
       
-        <title>Sample solutions - Educational Set AI</title>
+        <title>Trainer - Educational Set AI</title>
       
     
     
@@ -109,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sample solutions
+              Trainer
             
           </span>
         </div>
@@ -638,20 +634,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -667,7 +661,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Trainer
@@ -715,80 +709,6 @@
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Sample solutions
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="samplesolutions.html" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    Sample solutions
-    
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#sample-solutions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Sample solutions
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1038,7 +958,201 @@
 The PDF is password-protected with the password provided to the order e-mail-address.
  -to be added-
 Here you can download some project files:
- -to be added-</p></div>
+ -to be added-</p>
+<h1 id="exercises">Exercises</h1>
+<h2 id="exercise-1-getting-started">Exercise 1 - Getting started</h2>
+<h3 id="exercise-11-the-user-interface">Exercise 1.1 - The user interface</h3>
+<div class="admonition info">
+<p><strong>Goal:</strong> This exercise is meant as an introduction to the GUI. 
+Guide through the basics of the interface.
+This is a shortened guide that introduces the participants to what is important for the following exercises. If you need a deeper understanding of all the functions available, please click “Documentation” (available as of Nova 2.14) in the gray row below the SICK logo or click  "?" to receive detailed info about each tool (both highlighted in red).</p>
+</div>
+<p>Connect to your sensor's IP address in the browser.
+<img alt="gui" src="../images/gui.png"></p>
+<ol>
+<li>If prompted, create an empty project, then make sure <strong>Jobs</strong> is selected. This is where you can select a job/project slot to work in. </li>
+<li>Set the sensor to <strong>Configure</strong> mode. This enables all the settings.</li>
+<li>The interface is split into <strong>three sections</strong> (from left to right):<ul>
+<li><strong>Processing steps/tools</strong>: These are the tool categories Nova provides. From image acquisition to how that image will be processed and analyzed to what to do with the results and how to communicate that final result to other devices. Using these sample exercises, we are mostly working in Step 1: Acquisition and Step 2: Analysis, where all the (AI) tools to analyze the acquired images are located.</li>
+<li><strong>Preview windows</strong>: Set to Live and in the bottom row of the section select Free Running   for a live image or leave it at Stop   to trigger only when needed by clicking   .</li>
+<li><strong>Tool options</strong>: The content of this section changes based on what tool you have selected in Processing steps/tools. Here you can change the settings of each individual tool.</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h3 id="exercise-12-image-acquisition">Exercise 1.2 - Image acquisition</h3>
+<div class="admonition info">
+<p><strong>Goal</strong>: Acquire images that are suitable for subsequent analysis steps. </p>
+</div>
+<p>Place any available object in the tray. Ignore the auto setup (it may not always deliver optimal results) and experiment with the image acquisition settings. Adjust the value sliders until you achieve a satisfactory image.<br>
+Be sure to also explore the first two Integrated Lighting options!</p>
+<div class="admonition warning">
+<p><strong>Do not enable record images</strong>. When this option is active, the sensor saves every captured image to its internal memory, which can quickly fill up and cause performance issues.</p>
+</div>
+<ol>
+<li>
+<p>Showcase some results in a plenary session. Discuss what the settings are and what they do.  </p>
+<details class="success">
+<summary>Sample Solution</summary>
+<ul>
+<li><strong>Exposure time</strong>: The exposure time of the sensor. Increase the exposure time to get a brighter image. </li>
+<li><strong>Focus</strong>: The focus distance (in mm). The lower and upper limits are set based on the possible focus distances for the device.</li>
+<li><strong>Contrast</strong>: The contrast level for image acquisition. Increase the contrast to make objects in the image more distinguishable.   </li>
+<li><strong>Brightness</strong>: The brightness (gain factor) for image acquisition. Keep the brightness low to reduce the level of noise. If a brighter image is required, it is recommended to increase the exposure time before increasing the brightness.</li>
+<li><strong>Downsample</strong>: The downsample factor for the acquired images. The downsample factor is applied both vertically and horizontally. For example, a downsample factor of 2 will resize a 1000 x 1000 px image into a 500 x 500 px image. Downsampling is recommended to save disk space and to decrease the processing time for images with high resolution.</li>
+<li><strong>FOV</strong>: Limit the camera's field of view width (X/Y direction). At least 20% of the total width must be used.</li>
+<li><strong>Transformation</strong>: Use this setting to mirror or rotate the image</li>
+</ul>
+</details>
+</li>
+<li>
+<p>Some settings have trade-offs. What are they?  </p>
+<details class="success">
+<summary>Sample Solution</summary>
+<ul>
+<li><strong>Exposure time</strong>: As a downside to having a brighter image, the image will take longer to take, this can cause blurry images if the object is moving.</li>
+<li><strong>Brightness</strong>: As the image gets brighter, more noise is introduced into the image, causing it to lose quality and definition, especially in details.</li>
+<li><strong>Downsample</strong>: Downsampling decreases the resolution and therefore small details get lost. </li>
+</ul>
+</details>
+</li>
+<li>
+<p>What’s the difference between Exposure time and Brightness?  </p>
+<details class="success">
+<summary>Sample Solution</summary>
+<ul>
+<li>A higher <strong>Exposure time</strong> increases the image brightness, but introduces motion blur (if the object or the camera is moving). This happens as the sensor is given more time to gather light (resulting in a brighter image). But since every movement happening while gathering light (e.g. taking the image) causes blurriness, a longer exposure time increases the chance of a blurry image. A static object and camera cause no issues. </li>
+<li>A higher <strong>Brightness</strong> value does not increase the time it takes to capture the image. The higher image brightness is achieved by increasing the sensors sensitivity, meaning that less light suffices for a brighter image. Since the sensor is set much more sensitive however, small brightness errors are amplified and therefore result in a <em>noisier</em>, more grainy image of a lower quality, where small details might get lost. </li>
+<li>It is recommended to first make the object brighter by external means, like a photo flash or more lights in the environment as there are no blur-side-effects associated with this measure. Then Exposure time should be prioritized if the movement speed allows it. Only then if the previous measures are exhausted it is recommended to increase the brightness value. </li>
+</ul>
+</details>
+</li>
+<li>
+<p>What is Downsampling good for? Set it to a value of 3 or 4 if possible, to ensure a smooth user experience.  </p>
+<details class="success">
+<summary>Sample Solution</summary>
+<p>Downsampling decreases the image resolution which in turn decreases processing time as there are less pixels to analyze. This speeds up the processing time. A faster processing time leads to a higher frame rate, increased response times and a smoother user experience. If downsampling is set too high, important features that you want to recognize in an object might get lost, so the right setting depends on the chosen object and feature.   </p>
+</details>
+</li>
+<li>
+<p>What settings would you use for your object? What should be clearly visible?  </p>
+<details class="success">
+<summary>Sample Solution</summary>
+<p>The feature that is important for the image analysis must be clearly visible/distinguishable. This varies per object. For example: You want to classify coins (1 Euro/2 Euro coins). The Number or "image" on the coin determines the value and therefore the class. Since you want to make that visible, maybe a light from the side might help elevating the contrast between higher and lower object features in the object.  A higher contrast might help increasing the feature visibility more. Set the focus to the right distance between camera and object and the exposure so that the features are visible (not all white, not all black).   </p>
+</details>
+</li>
+<li>
+<p>Compare that to the auto setup. Which one do you think is better for the given object, your settings or the auto settings? Justify your answer.  </p>
+</li>
+</ol>
+<h2 id="exercise-2-classification">Exercise 2 - Classification</h2>
+<h3 id="exercise-21-my-first-ai-classification">Exercise 2.1 - My first AI Classification</h3>
+<div class="admonition info">
+<p><strong>Goal</strong>: Differentiate between various objects using AI Classification </p>
+</div>
+<details class="sickinfo">
+<summary>Recommended objects</summary>
+<table>
+<thead>
+<tr>
+<th>info</th>
+<th>image</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>For this exercise, we <strong>recommend</strong> using <strong>various types of wrapped candy</strong> or peppermints. You can substitute these with other objects that differ significantly in appearance. <strong>Advanced Option</strong>: To increase the difficulty, choose objects that look more similar. For example, use coins and classify them by value or country of origin. You may also decide whether to include the coin backsides as part of the classification.</td>
+<td><img alt="Candy" src="../images/candy.png"></td>
+</tr>
+</tbody>
+</table>
+</details>
+<p>Choose <strong>2 to 5 different objects</strong> for classification.<br>
+Then, in the left panel, navigate to <em>Analysis</em> → <em>Add Tool</em> → <em>Classify</em> → <em>AI Classification</em>.<br>
+Once selected, make sure your live image is set to stop <img alt="stop" src="../images/stop.png">.<br>
+Now you can resize and move the tool’s working area as needed.<br>
+In the AI Classification settings panel, you can rename <img alt="rename" src="../images/edit.png">, delete <img alt="delete" src="../images/trash.png"> and add new classes.  </p>
+<p><img alt="aiclassification" src="../images/aiclassification.png"></p>
+<ol>
+<li>
+<p>Create classes as needed and name the classes accordingly.</p>
+<details class="success">
+<summary>Sample Solution</summary>
+<p>For example when using different kinds of candy:</p>
+<ul>
+<li>
+<p>Class 1: Candy brand X - 5 images</p>
+</li>
+<li>
+<p>Class 2: Candy brand Y - 5 images</p>
+</li>
+<li>
+<p>Class 3: Candy brand Z - 5 images</p>
+</li>
+</ul>
+<p><img alt="AIClassification" src="../images/aiclassificationscreen.png"></p>
+</details>
+</li>
+<li>
+<p>Click Free running <img alt="freerunning" src="../images/freerunning.png"> in the bottom of the live view panel to update the image quickly.<br>
+Then in the AI Classification panel just click <img alt="addactiveimage" src="../images/activeimage.png"> to add sample images for the respective classes. </p>
+<p>Tip: If the last thing you did was click on <img alt="addactiveimage" src="../images/activeimage.png"> , the space bar on your keyboard will also add the image to your sample pool.</p>
+<details class="success">
+<summary>Sample Solution</summary>
+<p><img alt="AIClassification" src="../images/aiclassificationscreen2.png"></p>
+</details>
+<p>Once you have collected at least 5 images per class, scroll down and click <img alt="train" src="../images/train.png">.<br>
+The process will take up to about 1 minute and a neural network will be trained with the images you collected. </p>
+</li>
+<li>
+<p>Put the objects in the tray and check the results. </p>
+</li>
+<li>
+<p>What are your findings? How did you position the objects? What did you pay attention to? </p>
+<details class="success">
+<summary>Sample Solution</summary>
+<p>Things participants may have paid attention to:
+    - Capturing the object in various positions
+    - Rotating the object to capture it in various angles
+    - Capture the image in various lighting conditions
+    - Capture images of more than one object/candy of the same brand/class.</p>
+</details>
+</li>
+<li>
+<p>You can always add more images and retrain the AI. </p>
+<details class="tip">
+<summary>Tip</summary>
+<p>When confronted with a wrong result use this very image as an example for the correct class. Can you get better results after retraining?</p>
+</details>
+</li>
+<li>
+<p>What happens if you don’t put anything in the tray? Fix the problem and discuss. </p>
+<div class="admonition warning">
+<p><strong>Do not exceed 100 images in total for this exercise.</strong>
+This is the local storage limit for images on the sensor.</p>
+</div>
+<details class="success">
+<summary>Sample Solution</summary>
+<p>If you don't put anything in the tray, it will show one of the classes you created as the result. The tool must choose one of the defined classes alongside its confidence score.
+To fix this "wrong" result, create a new class called "empty" and add images of the empty tray. Click "Train" and check the results. </p>
+</details>
+</li>
+</ol>
+<hr>
+<h3 id="exercise-22-something-more-complicated">Exercise 2.2 - Something more complicated</h3>
+<p>Expand your approach: Use other objects you have available – objects that may be more difficult to classify. You don’t need to stick to one object per class. For example:  </p>
+<ul>
+<li><strong>Object variants within a class</strong>: Wrapped candies vs. empty wrappers.</li>
+<li><strong>Creative options</strong>: Drawings placed under the sensor for classification.
+Challenge yourself to think beyond the obvious!  </li>
+</ul>
+<h2 id="_1"></h2>
+<ol>
+<li>Come up with an object that might be more challenging to classify correctly.</li>
+<li>Collect images, start the training and test out the results. Check the tool help “?” to get more information about the training settings and try to improve your results</li>
+<li>Discuss with other groups what your findings are. What were you trying to classify? Do you need more images to train? If you are doing quality control, do you really need all these classes? Could another tool be more helpful in your scenario? </li>
+</ol>
+<p><span class="keys"><kbd>Tip</kbd></span></p></div>
 
 
 
